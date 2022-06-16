@@ -1,0 +1,91 @@
+-O que é internet   
+    -Internet.  Conhecida como Arpanet
+    Exercício
+        1-Primeiro domínio criado: symbolics.com
+        2-Primeiro blog criado: https://www.opendiary.com
+        3-Primeira compra feita na internet: Um cd do cantor STING
+        4-Site mais antigo em atividade: nordu.net
+
+-Termos-chave
+    -cache: arquivos pré carregados por estarem ja salvos no pc
+    -gif e jpg aceitam transparência
+    -Link é o canal de ligação criado   /   URL é o endereço desse link
+
+-Como funciona a internet
+    -Redes: Conexão entre computadores
+    -BackBone: Responsável por fazes o trabalho de conexão entre diversas máquinas
+    -Provedor de acesso: Empresas que provém o acesso ao BackBone (internet)    / normalmente empresas de telefone
+    -Provedor de serviço: O provedor fornece os diversos possíveis serviços como: (Dial-up(Discada), ADSL(banda larga), Fibra ótica, Rádio, Satélite, Móvel. P2P(peer to peer))
+
+    Caminho da internet até o PC: www > DNS(Server Name Dominion) > IP > Classes de redes (A,B,C,D,E) > 127.0.0.1(localhost)
+
+    Teste de ping à um site no terminal -   ping Site
+
+-TCP/IP, portas, roteadores, switches e modems
+    -TCP/IP e UDP
+        TCP/IP: Protocolos de comuicação entre computadores em rede    
+            Transmission Control Protocol
+        IP: Internet protocol - Protocolo de internet
+
+        4 Camadas para estabelecer o TCP/IP
+            -Física: Placa de rede...
+            -Rede: Conexão
+            Transporte: TCP, UDP...
+            Aplicação: FTP, SMTP, HTTP
+
+            UDP: Rápido, Não confiável, Qualquer um pode receber sem controle disso, Uso em livestreams, pois é uma conexão que se preocupa mais com o enviar dos dados, essa é a prioridade
+            TCP: Voltado a conexão, Maior controle das informações transitadas entre os dispositivos, Serve para manter a integridade da ordem dos dados enviados, Exemplo de uso em apps de mensagens
+
+    -Portas 
+        Requisições:
+        -FTP: Apenas para envio de arquivos, normalmente porta 20
+        -SSH: Exemplo de conexão segura, normalmente porta 22
+        -SMTP: Envio de email, normalmente porta 25
+        -DNS: Traduz o ip para dominio e vice versa, normalmente porta 53
+        -HTTP: Requisição simples na net, normalmente porta 80
+        -HTTPS, Requisição segura, normalmente porta 443
+
+    -Roteadores, switches e modems
+        -Modem: Converte os dados da rede para serem interpretados pelo PC e vice versa
+        -Roteador: Envia os dados para diversos dispositivos - envia para todos sem distinção de quem pediu ou não
+        -Switch: Mesmo q roteador mas só entrega o que foi pedido em cada dispositivo
+
+
+-Celular internet e outros dispositivos                
+    -Dados móveis: SMS: Troca constante de informações entre o Provedor e o celular - a mensagem(sms) vai de carona nisso
+         -MMS: Transmissão de mensagens multimídia (áudio, vídeo), fornece uma largura maior de transmissão
+
+    -Wifi
+        -Empresa IEEE - Padrões de internet
+            Padrões mais famoso para wifi / IEEE 802.11g((2,4GHz, 54Mbps)), IEEE 802.11n(2,4GHz, 5GHz, 150-600Mbps)
+        -Segurança: Principais  /   WEP, WPA, WPA2
+
+    -Bluetooth
+        -Conexão P2P
+
+
+-Browser, sites, aplicativos e webserver - Web-service                
+    -Browser:Sabe identificar diversas linguagens de programação, de marcação e multimídias -   cache e cookies
+    -Site, aplicativo e e-commerce
+        -Site: HTML(estático), Dxhtml(dinâmico)
+        -Web-server:Estático e dinâmico
+            Estático: Servidor físico que guarda os aplicativos
+            Dinâmico:Se refere aos softwares gravados no server físico
+                Arquivos(fileServer), Aplicações(application server), Banco de dados(database), todos juntos
+            
+
+-O que são stacks
+    -Stacks:
+        -Pilhas de tecnologia   
+        -Conjunto de softwares necessários e suficientes para executar um aplicativo/programa
+        -Linguagens de programação
+        -Ambientes e ferramentas de interação com o app/software
+        -Capacidade e limitação de performance
+        -Pontos fortes e fracos do app/software
+
+    -Definição de Front-end, Back-end e Fullstack
+        -
+
+-Linguagens de programação e termos
+    -Principais LPs
+        -WYSIWYG - What you see is what you get         

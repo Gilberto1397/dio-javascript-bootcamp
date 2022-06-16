@@ -1,0 +1,19 @@
+Prática com display:flex
+
+Estrutura básica do flex direction
+
+Prática com flex direction
+
+Estrutura básica do flex wrap
+
+Estrutura básica e prática com flex flow
+    Combinação do flex-direction e flex-wrap
+
+Estrutura básica e prática com align items
+    o strectch: fará com que os itens cresçam de acordo com o maior item do flex container
+
+FLEX ITENS
+
+Estrutura básica e prática com flex grow
+
+Estrutura básica do flex basis

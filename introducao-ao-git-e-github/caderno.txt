@@ -1,0 +1,51 @@
+Comandos básicos para um bom desempenho no terminal
+    -CLI - Command Line Interface
+    -GUI - Graphical user Interface
+
+    TAB - serve para autocompletar o nome de uma pasta que esteja dentro do diretório que estamos
+
+    -Tópicos fundamentais para entender o funcionamento do Git
+        -Sha1, Objetos fundamentais, Sistema distribuído, Segurança
+
+        Sha1: Secure Hash Algoritm, Conjunto de funções criptogradas projetadas pela NSA, gerando um conjunto de 40 caracteres
+            openssl sha1 Arquivo  > vai mostrar criar a chave ssl
+
+    -Objetos internos do Git
+        -Blobs: Guarda o sha1 do arquivo, tamanho e n° de caracteres    /   cada arquivo é um blob
+        -Trees(armazena blobs): Monta a estrutura de localização dos arquivos   /   armazena o sha1, nome do arquivo e tamanho
+        -Commits: Aponta para uma Tree, parente(outro commit), autor    /   Possui mensagem, timestamp e o sha1
+
+        Mantém a distribuição de arquivos entre cada usuário do repositório
+
+    -Chave SSH e Token
+        Gerar a chave que ficará salva no pc e será armazenada no nosso github, isso fará comparação de chaves e 
+            irá permitir melhor interação entre o server e o PC além de ser mais seguro
+
+            Gerando a chave no pc: $ ssh-keygen -t ed25519 -C gilberto-junior@outlook.com
+            
+            Colocada a chave no Github
+
+            Ativar o sshAgent   / responsável por gerir as chaves ssh
+                $ eval $(ssh-agent -s)  /   cria o processo de gestão de chaves
+                $ ssh-add id_ed25519    /   Coloca o caminho da chave PRIVADA
+
+                Preferir a URL SSH ao clonar devido a configuração prévia ssh
+
+                ssh gera a chave na máquina que será colocada no server
+                token gera a cahve no server que será usada na máquina
+
+    -Iniciando o Git e criando um commit
+        -git init
+        -git add
+        -git commit
+
+    -Passo a passo no ciclo de vida
+        -4 repositórios: Remote Repository(servidor) Ambiente de desenvolvimento(Working directory, staging area, local repository)        
+        Arquivos .md são mostrados externamente no github
+
+    -Trabalhando com o GitHub
+        -Visto sobre os comandos
+
+    -Como os conflitos acontecem no GitHub e como resolvê-los
+        -Em momentos de conflito no merge, devemos baixar o repo mais atual e as informações iguais iremos analisar e ver o
+            que fica e o que sai. Após isso dar novo commit e push                                                        

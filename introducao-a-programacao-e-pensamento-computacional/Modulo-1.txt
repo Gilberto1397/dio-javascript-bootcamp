@@ -1,0 +1,176 @@
+-Pensamento computacional   -   Juliana mascarenhas @in/juliana-mascarenhas-ds/
+    -Apresentação
+    -Introdução
+        -Pensamento computacional
+            -Processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritimos que podem ser implementados 
+            no computador.
+                Não está atrelado unicamente ao âmbito computacional
+            -Sistematico e eficiente, e que um humano e uma máquina seja capaz de resolver
+            -Habilidade generalista
+            -Dividido em 4 pilares: Decomposição(Divisão do problema total em problemas menores), 
+            Reconhecimento de padrões(Análise de padrões), 
+            Abstração(através de um problema específico, generalizar para algo comum),
+            Design de algoritimos(Definição passo a passo para resolução do problema)    
+
+    -Habilidades complementares - Raciocínio lógico e aperfeiçoamento
+        -Raciocínio lógico é uma forma de pensamento estruturado, ou Raciocínio, que permiti encontrar a conclusão ou 
+            determinar a resolução de um problema
+                -Pode se dar por Indução(Empirismo - observação - Leis e Teorias)                            
+                -Pode se dar por Dedução(A partir de estudos existentes)
+                -Pode se dar por Abdução(Supor algo a partir de uma observação - Premissa não necessariamente verdadeira)
+                    Inferência sintética: Abdução, Indução
+                    Inferência analítica: Dedução
+        
+        -Aperfeiçoamento: A partir de uma solução determinar pontos de melhora e refinamento
+            -melhor uso de recursos
+            -melhorar códigos e algoritimos
+
+    Pilar de Decomposição
+        - 1° passo de resolução de problemas dentro do pensamento computacional
+            Dado um problema complexo, devemos quebra-lo em problemas menores. Portanto problemas mais fáceis e gerenciáveis.
+            Estratégia: 
+                -Análise: Processo de quebrar e gerenciar partes menores e gerenciáveis
+                    -Explorar explorar / decompor em elementos constituintes / realizar exame detalhado destas partes
+                -Sintese: Combinar os elementos recompondo o elemento original na ordem correta
+                    -Processo de recostrução / Fundir os elementos de maneira coerente / Consiste em reunir elementos diferentes em um unico elemento 
+
+                Ordem de execução das tarefas menores: Sequêncial, Paralelo
+                    Sequêncial: Existe dependência entre as tarefas
+                    Paralelo: Se baseia em organizar se baseando em eficiência e tempo
+
+                    Estudar maneiras diferentes de decompor o mesmo problema
+
+                Como decompor: Identificar ou coletar dados > Agregar os dados > Funicionalidade(resolução)                                                                 
+                    Ex: Cozinhar
+
+            Decompôr: Dividindo em tarefas pequenas, resolve-las e executa-las na ordem necessária para ser coerente                    
+    
+    Pilar de Padrões
+        -Analisando pontos comuns em diferentes coisas para perceber padrões para facilitar a resolução de problemas
+        -Dividimos os padrões através de Categorias e Classes
+            Extraímos as caracteristicas, classificamos os dados > tomamos uma abordagem
+            Podemos usar diferentes métodos em difrentes aplicações
+
+            Ex de reconhecimento de padrões: Clssificação de dados, Reconhecimento de imagem(Placa de carro), Reconhecimento de fala, Análise de cenas, Classificação de documentos
+
+    Pilar de abstração
+        Abstrair: observar um ou mais elementos avaliando caracteristicas e propriedades em separado
+        Abstração: Processo intelectual de isolamento de um objeto da realidade
+        Generalizar: Tornar-se geral, mais amblo, extensão
+
+        Como classificar/obter os dados: Características, Pontos essenciais, Generalizar em detrimento do detalhe
+            Então geramos uma REPRESENTAÇÃO através da obtenção das características, pegando os pontos essenciais e descartando detalhes desnecessários
+
+            No fim, é tentar tornar a mesma abstração para resolução de problemas distintos
+
+    Pilar Algoritmos
+        -O computador recebe, manipula e armazena dados            
+        -step by step
+        -Instruções: o que precisa ser feito e a ordem de execução
+        -Entendimento por humano e máquina
+
+        Desenvolvimento de um programa: Estudo e definição dos dados de entrada e saída / Decrição do algoritmo por meio ferramentas narrativas, fluxograma ou pseudocódigo
+            / A codificação é o algoritmo codificado de acordo com a linguagem de programação escolhida
+
+            No algoritmo temos:
+                -Sequência de passos com objetivo definido
+                -Execução de tarefas específicas
+                -Conjunto de operações que resultam em uma sucessão finita de ações
+
+            Como construir um algoritmo: 
+                -Compreensão do problema
+                -Definição dados de entrada
+                -Definir processamento
+                -Definir dados de saída
+                -Utilizar um método de construção
+                -Teste e diagnóstico
+
+            Narrativa: Utilização de linguagem natural(palavras naturais - pode ter várias interpretações)                
+            Fluxograma: Estrutura gráfica utilizando simbolos pré definidos pra especificar o tipo de operação realizada - De simples entendimento
+            pseudocódigo: Regras definidas - Passos a serem seguidos
+
+
+    Estudos de caso!!!
+
+
+Introdução a lógica de programação
+    -O que é lógica
+        -A lógica vem para resolver um problema
+        -Pensar de maneira objetiva, executando tarefas numa sequencia coesa
+
+    Técnicas de lógica de programação
+        -Técnica linear: Ordenação de elementos por uma única propriedade / Recursos limitados  /   Única dimensão  /   Execução sequenciada
+            -Modelo tradicional
+            -Não tem vínculo
+            -Estrutura hierárquica
+            -Utilizada na programação de computadores
+
+    Técnica estruturada: Organização, disposição e ordem dos elementos sociais que compõem um corpo (concreto ou abstrato)            
+        Resolução de etapas através de mais de uma opção de escolha
+
+    Técnica modular: Partes independentes controladas por um conjunto de regras
+        Dados de entrada > Processo de transformação > Dados de saída
+        Cada etapa possui suas regras específicas      
+
+              
+    -Fundamentos de algoritmos
+        -Tipologia e variáveis
+            -Tipos: Numéricos(inteiros, reais), Caracter, lógico(booleano)
+
+            Variável é um tipo de estrutura mutável
+                -Pode assumir qualquer um dos valores de um determinado conjunto de valores
+                -Pode ser de ação(Modificação de estado)
+                 ou de controle(Vigiada, controle)
+
+    -Instruções primitivas
+        -Operadores podem ser binários e unários                    
+
+    -Estruturas condicionais e operadores
+        -Vantagem: Redução de linhas, Redução de erros, Compreensão facilitada
+        
+    -Vetores e matrizes
+        -Vetor é caracterizado por uma variável dimensionada com tamanho pré-fixado
+        -Matriz é uma tabela organizada em linhs e colunas no formato M x N onde M representa o n° de linhas(horizontal) e N o n° de colunas(vertical)
+            -Coleção de variáveis   /   Contidas em memória /   Índices(localização desa matriz)
+
+    -O que são funções?
+        -Blocos de instruções que realizam tarefas específicas
+        -Método: Mais relacionado à POO
+        -Modularização do problema
+        -Código mais claro
+        -Reutilização de código
+        -Identificados por Nome e Parâmetro(Assinatura da função)            
+
+    -Instruções de entrada/saída
+        -Saída: Programada, Por interrupção
+
+Linguagens de programação
+    -Introdução à linguagens de programação
+        -As linguagens de programção são baseadas em um ou mais paradigmas, conhecidas como multiparadigma
+        -Ajudam a resolver problemas de decisão, problema de busca, problema de otimização
+
+        Linguagem de programação: Método padronizado composto por um conjunto de regras sintáticas e semânticas de implementação de um código fonte
+        Código fonte que pode ser traduzido ou interpretado
+
+    -Como um computador entende o programa?
+        -Código escrito em uma linguagem (programa fonte)                        
+        -Código compilado e interpretado pelo PC (programa objeto)
+        -Alto código (cógigo antes de ser executado pelo máquina)
+        -Baixo código (código executado na máquina)
+        -O ato de traduzir o alto código é compilar o código para baixo código  /   Mais devagar
+        -Interpretar o código executa e traduz ao mesmo tempo   /   Mais devagar
+
+        Transpilar - Tornar uma linguagem alto código em outro alto código  /   converter TypeScript em JavaScript
+
+    -Características de um programa
+        -Deve ser Legível, Redigivel, Confiabilidade, Custo        
+
+        Outorganilidade: Coerência nas instruções
+
+    -Análises de código
+        -3 análises: Lexica, sintáxe, semântica
+        
+
+    -Paradigmas de programação
+        -Forma de resolução de problemas com diretrizes e limitações específicas de cada paradigma utilizando linguagem de programação
+        -Pilares da POO: Herança, Encapsulamento, Polimorfismo, Abstração        

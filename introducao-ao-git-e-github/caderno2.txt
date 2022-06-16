@@ -1,0 +1,96 @@
+Gerenciar diferentes versões de documentos
+o git trabalha com os estados dos arquivos, outros sistemas trabalham com diferenças entre os arquivos
+
+config de usuário
+
+git config --global user.name "Nome de Usuario"
+
+git config --global user.email "email"
+
+git config --global core.editor code .  /   para editar editor padrão
+
+git config user.name    /   traz a informação da chave de nome
+    Exemplo para ser usado com outras chaves
+
+git config --list   /   traz as informações de config do git
+
+
+Ciclo de vida dos estados dos arquivos
+    untracked: está no repositório mas ainda não é visto no git
+    unmodified: existe no git mas não houve alteração
+    modified: quando vc modifica o arquivo
+    staged: quando é feito o versionamento
+
+
+    git status: mostrando a situação do repositório
+        att
+
+    git commit -m irá dar o snapshot no code total do diretório
+
+    a cada att no arquivo dentro do git é necessário novo commit
+    mas antes é necessário adicionar git add nomeDoArquivo.extensao
+
+10. Visualizando logs
+    -git log / mostra informações a respeito dos commits    
+    -git log --decorate / traz outras informações como a brach usada
+    -git log --author="nome" / irá trazer os commits de um autor específico
+    -git shortlog / irá trazer uma relação de commits por pessoa, apenas
+    -git shortlog -sn / nome da pessoa e o n° de commits dela
+
+    -git diff   /   permiti visualizar oq foi editado antes de commitar / MUITO IMPORTANTE DAR ESSA CONFERIDA ANTES DO COMMIT
+    -git diff --name--only / irá mostrar apenas o nome do arquivo modificado
+    -git commit -am "comentário"    /   adiciona todos os arquivos modificados para comitar e comita / comandos juntos
+
+Desfazendo coisas
+
+        ANTES DE DAR ADD
+        -git checkout NomeArquivo    /   reverte o arquivo há versão anterior sem commitar ou salvar
+
+        DEPOIS DE DAR ADD
+        -git reset HEAD NomeArquivo  /   ao dar add no arquivo, esse comando irá retirar o arquivo do estado de adicionado
+
+        DEPOIS DE DAR COMMIT
+        -git reset --soft / mata o commit mas deixa o arquivo em staged/add pronto para commitar dnv
+
+        -git reset --mixed / matar o commit e volta os arquivos pra antes de staged, porém com os arquivos ainda ali
+
+        -git reset --hard   /   tudo relaciondo ao commit será ignorado, commit, staged e novos arquivos
+            -CUIDAR AO USAR HARD PARA NÃO DAR CONFLITO NO REPOSITÓRIO
+
+        PARA ESSES COMANDO É NECESSÁRIO USAR A HASH DO COMMIT ANTERIOR AO QUE QUEREMOS ESQUECER
+
+        …or create a new repository on the command line
+echo "# teste" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Gilberto1397/teste.git
+git push -u origin main
+
+---or push an existing repository from the command line
+git remote add origin https://github.com/Gilberto1397/teste.git
+git branch -M main
+git push -u origin 
+
+--Para atualizar no repository
+    git push origin master  /   origin:repo no github - master:branch
+
+ Clonando repositórios remotos
+    -endereço ssh é mais rápido
+    -git clone git@github.com:Gilberto1397/github-course.git NovoDiretórioSeQuiserCriar    
+
+
+FALADO A RESPEITO DO FORK
+    PERMITI COPIR REPOS E ENTÃO DAR PULL REQUEST, ENQUANTO O CLONE N DEIXA DAR PULL OU CLONAR SEM A DEVIDA AUTORIZAÇÃO
+
+BRANCHS 
+    git checkout -b NomeBranch  /   cria uma branch
+    git branch  /   mostra as branchs disponíveis
+
+    21. Movendo e deletando branches
+        git checkout NomeBranch  /   serve para trocar para uma branch existente    SEM O -B
+
+        git branch -D NomeBranch    /   apaga a branch
+
+    MERGE / UNIÃO DOS BRANCHS        
