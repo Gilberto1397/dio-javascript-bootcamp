@@ -1,0 +1,41 @@
+-Interpretada
+-Baseada em protótipos - conjunto de funções disponíveis para o JS
+-Multiparadigma(POO,Estruturada, Funcional)
+-Comumente utilizada em client-side
+-segue o padrão ECMAscript
+
+
+Pesquisar as evoluções do ECMAscript
+
+
+2 Recursos básicos da linguagem
+    -Se familizarizar com a linguagem
+    -Entender a diferença entre variável e constante
+    -Ser capaz de comentar o código
+
+    Boa prática nomear constante com letra maiúscula
+
+3 Console
+    -Usar na web
+    -Usar o terminal - Usando comando node + nome do arquivo
+
+4 Javascript em uma página da web
+    -Aprender a interagir com DOM
+    -Se familiarizar com um projeto simples
+
+
+5 Colocado em prática
+    -Primeiro componente dinâmico
+    -Introdução há eventos
+
+    Criando contador   
+
+Caso você queira ir além, aqui estão algumas dicas de coisas para tentar:
+-Tente implementar os eventos usando o método addEventListener.
+-Crie condicionais que desabilitam o botão de incrementar ou decrementar quando count chegar a um determinado valor (ex.: 0 <= count =< 10).
+-Mude a cor do texto em CURRENT_NUMBER para vermelho quando o número for negativo. 
+
+Fazer to-do list
+
+6 Mercado de trabalho
+    -
