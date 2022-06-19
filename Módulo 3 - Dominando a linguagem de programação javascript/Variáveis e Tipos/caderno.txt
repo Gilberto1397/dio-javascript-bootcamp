@@ -1,0 +1,19 @@
+é possível atribuir valor a uma variavel
+    nomeVariavel = 1
+
+    e só depois declara-la
+
+    var nomeVariavel;
+
+    com o let não é possível, pois o oisting não permiti. 
+    O hoisting no JS irá puxar todas as declarações para o início para serem lidas. Consegue puxar var
+    mas  e CONST não
+
+    Constantes são escritas em SNAKE_UPPER_CASE image.png
+
+    let teste1 = new Number(23);    /   gerou um obj
+
+    split() dividi as palavras de uma string em uma lista com cada palavra de acordo com o ponteiro passado - semelhante ao explode()
+    includes() busca uma string dentro de uma string : bool
+    startsWith() 
+    endsWith()
