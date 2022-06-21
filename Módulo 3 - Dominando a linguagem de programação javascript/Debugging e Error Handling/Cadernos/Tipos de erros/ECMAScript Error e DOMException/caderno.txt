@@ -1,0 +1,7 @@
+Objeto error do ECMAScript - DOMException
+
+ECMAScript - Ocorre em tempo de execução
+    Composto por: mensagem, nome, linha, call stack(pilha de chamadas até chegar no erro)
+
+
+DOMException: Erros relacionados ao DOM (JS envolvido à uma página da web)    

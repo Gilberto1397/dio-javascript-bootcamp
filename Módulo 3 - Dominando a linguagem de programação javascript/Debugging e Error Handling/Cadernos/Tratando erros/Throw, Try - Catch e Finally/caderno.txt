@@ -1,0 +1,6 @@
+Explicar a diferença entre Return e Trhow
+
+Conhecer o try/catch
+
+
+Trhow: Irá apresentar um erro, ao invés de uma string ou outro tipo de resposta

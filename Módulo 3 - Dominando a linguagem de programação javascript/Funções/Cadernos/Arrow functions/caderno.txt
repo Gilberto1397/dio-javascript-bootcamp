@@ -1,0 +1,11 @@
+Funções comuns e aramazenadas em var, fazem hoisting
+
+Arrow Function não faz hoisting
+
+
+Outras restrições: O this sempre será global
+    -Não é possível utilizar o obj Arguments
+    -Não é possível manipular o this e seus valores com Bind, Call, Apply
+
+    PREFERIR USAR ARROW FUNCTIONS PARA MÉTODOS(FUNÇÕES DENTRO DE OBJ)
+        No demais preferir função comum

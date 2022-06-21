@@ -1,0 +1,11 @@
+Retorno do OBJ referente ao contexto que ele está presente
+
+Visto como usar o THIS junto do método call
+    iremos especificar uma saida envolvendo o this e uma propriedade de obj
+
+    Usaremos o CALL para dar input com um obj que será interpretado no output
+
+    O método APPLY faz a mesma coisa que o call, porém ao passarmos params junto, iremos manda-los dentro de um array
+
+    Método bind, clocando uma função e injetando o valor do obj que é passado com param
+        e como o tis se referencia a um obj, irá usar esse novo PARAM

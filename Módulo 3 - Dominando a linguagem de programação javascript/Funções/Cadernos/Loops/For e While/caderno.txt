@@ -1,0 +1,5 @@
+For in  /   loop entre propriedades enumeráveis de um obj / retornando as chaves de um obj
+    No exemplo foi acessado a chave de da um e ao lado o valor da chave
+
+For of: irá abrir um array e listar o valor de cada índice
+    Numa string irá trazer cada uma das letras dela    

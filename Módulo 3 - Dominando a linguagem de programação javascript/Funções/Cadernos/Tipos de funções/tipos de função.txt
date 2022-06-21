@@ -1,0 +1,20 @@
+Objetivos: Como declarar funções - Como manipular parâmetros - Apresentar loops e outras delcarações - Apresentar o argumento "this"
+
+Tipos de funções
+    -Anônima: uma variável pode armazenar uma função
+        const SOMA = function (a, b) {
+            return a + b
+        }
+
+        SOMA(a, b)
+
+    -Autoinvocável: Uma função anônima entra parênteses, seguida por outro par de parênteses, que representa sua chamada
+        (
+            function(){
+                let name = "joao";
+                return name;
+            }
+        )();  // esse ultimo parêntese é a autoinvocação        
+
+    -Callbacks: Função passada como argumento para outra função - possibilita maior controle da ordem das chamadas
+        -pode ser mais simples que invocar funções dentro de outras        

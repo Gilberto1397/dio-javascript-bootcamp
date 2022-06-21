@@ -1,0 +1,8 @@
+Criando erro personalizado
+
+No exemplo criamo uma instância de erro - new Error para ser usado onde quiser
+    Contém 3 params, mas geralmente só é utilizado a mensagem
+
+Foi visto como gerar o nome da chave que conterá a mensagem do erro, através da propriedade .name
+
+.name - .stack

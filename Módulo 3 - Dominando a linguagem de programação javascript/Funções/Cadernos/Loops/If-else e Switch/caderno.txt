@@ -1,0 +1,1 @@
+o Switch no JS, sempre irá comparar por tipo e valor

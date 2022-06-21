@@ -1,0 +1,14 @@
+Objetivos: Como manipular params - Técnicas para lidar com nºs indefinidos de params
+
+    -Obj arguments - irá recuperar os parametros enviados!!!
+        -   passado exemplo de array usado como param de função, o arguments.length irá contar o nº de valores presentes no array
+            sem precisar fazer array.length
+
+    -é possível passar valores padrões para um param / function sum(a, b = 1)            
+
+Arrays e Objetos
+    -Spread: Forma de lidar separadamente com os elementos de um array  /   ao chamar a função
+
+    Através do uso das ... é possível pegar cada elemento de um array separadamente            
+
+    -Rest: contrário de Spread  /   Ao declarar a função / converte os params para serem usados como array
