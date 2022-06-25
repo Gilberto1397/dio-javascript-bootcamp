@@ -1,0 +1,5 @@
+BOM > DOM
+
+DOM - Documento Object Model - Cada elemento dentro do DOM é um nó
+
+BOM - Browser Object Model - Acima do DOM

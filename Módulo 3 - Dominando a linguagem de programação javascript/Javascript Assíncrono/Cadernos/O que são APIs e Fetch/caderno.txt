@@ -1,0 +1,7 @@
+Explicar API
+
+Como lidar com suas requisições
+
+Apresentar o método fetch()
+
+    O fetch() Sempre retorna uma promisse - Usar com await e sepa async na function

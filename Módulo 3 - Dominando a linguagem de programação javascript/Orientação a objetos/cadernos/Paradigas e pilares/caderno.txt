@@ -1,0 +1,19 @@
+Apresentar alguns paradigmas da programção
+
+Apresentar os pilares da POO
+
+
+Paradigas: 
+    Imperativo: Foca em coo resolver os problemas
+
+    Declarativo: O que será feito
+
+    POO: herança, polimorfismo, encapsulamento, abstração
+
+        Abstração: Generalizar algo
+
+        Herança: herda as caracteristicas do objeto pai
+
+        Encapsulamento: Métodos e propriedades específicas de cada classe
+
+        Polimorfismo: Herdam a classe pai, mas apresetam comportametos diferentes

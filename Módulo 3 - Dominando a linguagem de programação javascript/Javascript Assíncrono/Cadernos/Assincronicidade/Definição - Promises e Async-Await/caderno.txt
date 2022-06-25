@@ -1,0 +1,35 @@
+Explicar Promisses
+    Ensinar sua manipulação
+
+Apresentar as palavras chaves "async" e "await"    
+
+
+Assincronicidade é aquilo que não se efetiva ao mesmo tempo
+    O js por padrão é síncrono
+    Quando assíncrono pe possível fazer uma coisa enquanto faz outra também
+
+Promisses: Objeto assíncrono 
+    -Inicialmente seu valor é desconhecido
+    resolvida => .then()    
+    rejeitada => .catch()
+
+    Possui 3 estados: Pending - Fulfilled(Completado) - Rejected
+
+
+Async e Await
+
+    Async - Utilizado para gerar funções assincronas e permitir o uso do Await
+
+    Await - Comando específico para Promisses, pois o código irá esperar a execução da mesma para então continuar
+        Sempre estará junto na execução da promisso
+
+
+    Ao invocar a função assincrona, também precisa da palavra await na sua invocação 
+        await função()
+
+    NO GERAL
+        O async irá gerar a função assincrona, mas é o await que fará o código esperar pelas respostas das promisses
+        por isso devemos por await nas invocações, pois se n irá retornar como pendente
+
+        Quando formos criar uma função assíncrona usaremos async no iníncio
+        Usaremos o await sempre q estivermos manipulando um dado relacionado a uma promisse        

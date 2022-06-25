@@ -1,0 +1,6 @@
+Exemplo das vantagens do typescript
+    -
+
+As interfaces são utilizdas para definir estruturas de dados e Classes
+
+Os types servem para Lidar com mais de uma interface ao meso tempo podendo utilizar todas juntas ou apenas uma de várias        

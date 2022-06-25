@@ -13,7 +13,7 @@
 
 -Como funciona a internet
     -Redes: Conexão entre computadores
-    -BackBone: Responsável por fazes o trabalho de conexão entre diversas máquinas
+    -BackBone: Responsável por fazer o trabalho de conexão entre diversas máquinas
     -Provedor de acesso: Empresas que provém o acesso ao BackBone (internet)    / normalmente empresas de telefone
     -Provedor de serviço: O provedor fornece os diversos possíveis serviços como: (Dial-up(Discada), ADSL(banda larga), Fibra ótica, Rádio, Satélite, Móvel. P2P(peer to peer))
 

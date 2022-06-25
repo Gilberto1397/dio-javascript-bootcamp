@@ -1,0 +1,13 @@
+OOJS - Oriented Object Javascript
+
+Apresentar o conceito de protótipos e cadeia de protótipos
+
+Apresentar a estrutura de classes no Javascript
+
+Todos os obj herdam os as propriedades e métodos de um protótipo
+    o Object.Prototype esta o topo da cadeia
+
+
+Utilizamos o método super() Para enviar
+
+As propriedades do pai irão sempre ser enviadas para os filhos

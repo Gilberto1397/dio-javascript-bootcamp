@@ -1,0 +1,3 @@
+Get.elementbyTagName - ClassName    /   retorna array de elementos
+
+querySelectorAll / retorna array    /   permiti restringir o elemento específico através de uma busca específica
